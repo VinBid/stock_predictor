@@ -1,0 +1,97 @@
+* {
+    background-color: white;
+}
+
+.title {
+    display: flex;
+    font-weight: 200;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    padding: 2rem;
+    border-radius: 10px; 
+    color: teal;
+}
+
+.accuracy {
+    display: flex;
+    font-size: 35px;
+    padding-left: 2rem;
+    color:teal;
+    margin-right: 13rem;
+    
+}
+
+.stock {
+    color:teal;
+    padding-right: 0.5rem;
+}
+
+.startDate {
+    color: teal;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.flexItem {
+    display: flex;
+    padding-left: 2.5rem;
+    flex-wrap: wrap;
+    align-items: center; 
+    text-align: center; 
+    justify-content: center;   
+    
+}
+
+.submitButton {
+  background-color: teal;
+  padding-right: 1rem;
+  padding-left: 2rem;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 21px;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 2.5rem;
+}
+
+.submitButton:hover {
+    background-color: darkcyan;
+}
+
+.submitButton:active {
+    background-color: teal; 
+    font-weight: bold;
+}
+
+.chartItem {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.inputSection {
+    display: flex;   
+
+}
+
+.stockInput {
+    padding-top: 0.25rem;
+}
+
+@media screen and (max-width: 768px) {
+    .inputSection {
+      flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1385px) {
+    .accuracy {
+        display: flex;
+        color:teal;
+        margin-left: 10rem;
+        margin-bottom: 1rem;
+        
+    }
+}
