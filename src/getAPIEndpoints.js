@@ -10,7 +10,7 @@ function GraphComponent() {
   const [graphData, setGraphData] = useState({});
   const [loading, setLoading] = useState(true);
   const [desiredStartDate, setDesiredStartDate] = useState('2022-01-01'); 
-  const [stock, setStock] = useState('AMZN'); 
+  const [stock, setStock] = useState('NFLX'); 
   
   const handleSubmit = (event) => {
     event.preventDefault(); 
